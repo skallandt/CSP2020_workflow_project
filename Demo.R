@@ -15,4 +15,6 @@ Taxon_Summaries <- data %>%
                                            maxMLE = max(Overall.MLE, na.rm=T))
 
 
-Taxon_Summaries %>% filter(TaxonClass!="Arachnida")
+Taxon_Summaries_Overall <- Taxon_Summaries %>% filter(TaxonClass!="Arachnida")
+Taxon_Summaries_Overall
+
